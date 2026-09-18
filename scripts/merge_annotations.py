@@ -8,7 +8,8 @@ import re
 # ============================================================
 
 # 程式預設放在 dataset 資料夾內
-DATASET_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATASET_DIR = PROJECT_ROOT / "data"
 
 # 輸出資料夾
 OUTPUT_DIR = DATASET_DIR / "merged_annotations_by_class"
