@@ -89,7 +89,7 @@ as complete zongzi.
 
 ### Before — False Positives
 
-![False Positives Before Refinement](docs/false-positive-before.jpg)
+![False Positives Before Refinement](docs/false-positive-before.png)
 
 The model had learned visual characteristics such as color, texture, and food appearance, but had not learned strongly enough that these visually similar regions should be treated as background.
 
